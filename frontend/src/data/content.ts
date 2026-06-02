@@ -25,6 +25,7 @@ export const site = {
     github: "https://github.com/Methods-Lab",
     linkedin: "https://www.linkedin.com/in/methods-lab-00a4b5413",
     facebook: "https://www.facebook.com/share/1TfUuzBYu6/",
+    upwork: "https://www.upwork.com/freelancers/~01a98b16ced9f6a681",
   },
 };
 

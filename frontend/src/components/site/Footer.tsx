@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Github, Linkedin, Facebook, Mail } from "lucide-react";
+import { Github, Linkedin, Facebook, Briefcase, Mail } from "lucide-react";
 import { nav, site } from "@/data/content";
 
 export function Footer() {
@@ -48,6 +48,9 @@ export function Footer() {
             </a>
             <a href={site.socials.facebook} aria-label="Facebook" target="_blank" rel="noreferrer" className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border hover:bg-muted">
               <Facebook className="h-4 w-4" />
+            </a>
+            <a href={site.socials.upwork} aria-label="Upwork" target="_blank" rel="noreferrer" className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border hover:bg-muted">
+              <Briefcase className="h-4 w-4" />
             </a>
           </div>
         </div>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Mail, Github, Linkedin, Facebook, CheckCircle2, CalendarClock } from "lucide-react";
+import { Mail, Github, Linkedin, Facebook, Briefcase, CheckCircle2, CalendarClock } from "lucide-react";
 import { SiteLayout, PageHeader } from "@/components/site/SiteLayout";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -134,6 +134,7 @@ function ContactPage() {
                 <li><a className="inline-flex items-center gap-2 hover:text-brand" href={site.socials.github} target="_blank" rel="noreferrer"><Github className="h-4 w-4 text-brand" /> GitHub</a></li>
                 <li><a className="inline-flex items-center gap-2 hover:text-brand" href={site.socials.linkedin} target="_blank" rel="noreferrer"><Linkedin className="h-4 w-4 text-brand" /> LinkedIn</a></li>
                 <li><a className="inline-flex items-center gap-2 hover:text-brand" href={site.socials.facebook} target="_blank" rel="noreferrer"><Facebook className="h-4 w-4 text-brand" /> Facebook</a></li>
+                <li><a className="inline-flex items-center gap-2 hover:text-brand" href={site.socials.upwork} target="_blank" rel="noreferrer"><Briefcase className="h-4 w-4 text-brand" /> Upwork</a></li>
               </ul>
             </div>
             <div className="rounded-2xl border border-border bg-foreground p-6 text-background">
