@@ -1,0 +1,7 @@
+# Dependencies for the Vercel Python serverless function (api/index.py).
+# Vercel installs these for the /api function. uvicorn is NOT needed in
+# production (Vercel provides the ASGI server); it's only used for local dev
+# and lives in backend/requirements.txt.
+fastapi>=0.114.0
+pydantic[email]>=2.7.0
+python-dotenv>=1.0.0
