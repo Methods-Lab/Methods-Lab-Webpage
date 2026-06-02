@@ -23,6 +23,8 @@ export const site = {
   location: "Pakistan — collaborating worldwide",
   socials: {
     github: "https://github.com/Methods-Lab",
+    linkedin: "https://www.linkedin.com/in/methods-lab-00a4b5413",
+    facebook: "https://www.facebook.com/share/1TfUuzBYu6/",
   },
 };
 
@@ -183,6 +185,27 @@ export const differentiators = [
 ];
 
 export const projects = [
+  // Pinned / flagship: our featured open-source agent.
+  {
+    slug: "data-analyst-agent",
+    title: "Data Analyst Agent",
+    summary:
+      "Interactive AI chatbot that analyzes any Excel/CSV data — automated EDA, visualizations, and ML-powered predictions and forecasting.",
+    category: "Data",
+    repoUrl: "https://github.com/Methods-Lab/Data-Analyst-Agent",
+    stack: ["Python", "Pandas", "EDA", "Machine Learning"],
+    problem:
+      "Analysts spent hours on repetitive data prep and exploratory analysis before surfacing any real insight, and non-technical users had no simple way to interrogate their own spreadsheets.",
+    solution:
+      "An interactive AI chatbot agent that ingests any Excel/CSV file, performs automated exploratory data analysis (statistical summaries and visualizations), and applies machine learning for predictions and forecasting — all through a conversational interface.",
+    features: [
+      "Conversational data Q&A",
+      "Automated EDA & statistical summaries",
+      "Auto-generated visualizations",
+      "ML predictions & forecasting",
+    ],
+    outcome: "Open-source assistant that turns raw spreadsheets into insights and forecasts in minutes.",
+  },
   {
     slug: "nexus-ai",
     title: "Nexus AI",
@@ -206,18 +229,6 @@ export const projects = [
     solution: "We built an agent that connects to common tools and automates multi-step operational checklists.",
     features: ["Workflow automation", "Task routing", "Tool integrations", "Audit logs"],
     outcome: "Reusable ops blueprint for agent-driven automation.",
-  },
-  {
-    slug: "data-analyst-agent",
-    title: "Data Analyst Agent",
-    summary: "Interactive AI assistant for automated EDA, forecasting, and insights.",
-    category: "Data",
-    repoUrl: "https://github.com/Methods-Lab/Data-Analyst-Agent",
-    stack: ["Python", "Pandas", "EDA", "ML"],
-    problem: "Analysts spent hours preparing repetitive EDA reports before real analysis began.",
-    solution: "We built a guided agent that automates EDA, visualization, and basic forecasting from CSV/Excel.",
-    features: ["Automated EDA", "Visualization summaries", "Forecasting", "Insight prompts"],
-    outcome: "Open-source assistant that accelerates first-pass analysis.",
   },
   {
     slug: "sql-ai",
