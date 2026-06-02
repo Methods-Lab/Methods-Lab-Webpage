@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Update the domain below if you connect a custom domain in Vercel. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://methods-lab-webpage.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/insights</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/nexus-ai</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/nexus-ops-agent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/data-analyst-agent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/sql-ai</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/recfm</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/gnn-recommenders</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/cnn-visualizations</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://methods-lab-webpage.vercel.app/work/mcp-server-stripe</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

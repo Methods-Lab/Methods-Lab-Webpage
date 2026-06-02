@@ -34,3 +34,16 @@ dist-ssr
 
 .vercel
 .env*.local
+
+# Secrets / environment (never commit real credentials)
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
